@@ -63,28 +63,6 @@ return [
             ]) : [],
         ],
 
-        'mysql_windows' => [
-			'read' => [
-				'host' => [
-					'192.168.1.1',
-					'196.168.1.2',
-				],
-			],
-			'write' => [
-				'host' => [
-					'196.168.1.3',
-				],
-			],
-			'sticky'    => true,
-			'driver'    => 'mysql',
-			'database'  => 'laravel',
-			'username'  => 'root',
-			'password'  => '',
-			'charset'   => 'utf8mb4',
-			'collation' => 'default',
-			'prefix'    => '',
-		],
-
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
