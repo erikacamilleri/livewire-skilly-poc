@@ -24,3 +24,6 @@ Homestead.json
 
 # Visual Studio Projects
 .vs/
+
+# PhpStorm ide files
+.idea/*
